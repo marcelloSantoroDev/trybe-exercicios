@@ -2,9 +2,11 @@
 
 ## Parte I - Criação de arquivos e diretórios
 
+__________________________________________________________________
 
 ##### **_Dica : Para criação de arquivos vazios você pode utilizar o comando touch nome-do-arquivo.extensao._**
 
+__________________________________________________________________
 
 _1_. Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu: crie um diretório chamado **_unix_tests_** e navegue até ele.
 
