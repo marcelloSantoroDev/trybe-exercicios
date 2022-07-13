@@ -30,26 +30,19 @@
 
 13. Limpe o terminal.
 
-##### Para os exercícios, 14 e 15, crie, de forma manual na parte gráfica do seu sistema operacional, um arquivo de texto com o conteúdo abaixo, chamado skills.txt:
+#### Para os exercícios, 14 e 15, crie, de forma manual na parte gráfica do seu sistema operacional, um arquivo de texto com o conteúdo abaixo, chamado skills.txt:
 
-|            |
---------------
+
+
 | Internet   |
 --------------
 | Unix       |
---------------
 | Bash       |
---------------
 | HTML       |
---------------
-| CSS	     |
---------------	
+| CSS	     |	
 | JavaScript |
---------------
 | React      |
---------------
 | SQL        |
---------------
 
 14. Mostre na tela as 5 primeiras skills do arquivo skills.txt.
 
@@ -57,9 +50,9 @@
 
 16. Apague todos os arquivos que terminem em .txt.
 
-##Parte II - Manipulação & Busca
+## Parte II - Manipulação & Busca
 
-####Na pasta unix_tests, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
+#### Na pasta unix_tests, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
 
 __curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"__
 
