@@ -2,100 +2,85 @@
 
 ## Parte I - Criação de arquivos e diretórios
 
-__________________________________________________________________
+**Dica :** Para criação de arquivos vazios você pode utilizar o comando `touch nome-do-arquivo.extensao`.
 
-##### **_Dica : Para criação de arquivos vazios você pode utilizar o comando touch nome-do-arquivo.extensao._**
+1. Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu: crie um diretório chamado `unix_tests` e navegue até ele.
 
-__________________________________________________________________
+2. Crie um arquivo de texto com o nome `trybe.txt`.
 
-_1_. Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu: crie um diretório chamado **_unix_tests_** e navegue até ele.
+3. Crie uma cópia do arquivo `trybe.txt` com nome `trybe_backup.txt`.
 
-_2_. Crie um arquivo de texto com o nome **_trybe.txt_**.
+4. Renomeie o arquivo `trybe.txt`.
 
-_3_. Crie uma cópia do arquivo trybe.txt com nome **_trybe_backup.txt_**.
+5. Dentro de `unix_tests` , crie um novo diretório chamado `backup`.
 
-_4_. Renomeie o arquivo **_trybe.txt_**.
+6. Mova o arquivo `trybe_backup.txt` para o diretório `backup`.
 
-_5_. Dentro de **_unix_tests_** , crie um novo diretório chamado **_backup_**.
+7. Dentro de `unix_tests` , crie um novo diretório chamado `backup2`.
 
-_6_. Mova o arquivo **_trybe_backup.txt_** para o diretório **_backup_**.
+8. Mova o arquivo `trybe_backup.txt` da pasta `backup` para a pasta `backup2`.
 
-_7_. Dentro de **_unix_tests_** , crie um novo diretório chamado **_backup2_**.
+9. Apague a pasta `backup`.
 
-_8_. Mova o arquivo **_trybe_backup.txt_** da pasta backup para a pasta **_backup2_**.
+10. Renomeie a pasta `backup2` para `backup`.
 
-_9_. Apague a pasta **_backup_**.
+11. Veja qual o path completo do diretório atual e liste todos os arquivos dentro dele.
 
-_10_. Renomeie a pasta **_backup2_** para **_backup_**.
+12. Apague o diretório `backup`.
 
-_11_. Veja qual o _path_ completo do diretório atual e liste todos os arquivos dentro dele.
+13. Limpe o terminal.
 
-_12_. Apague o diretório **_backup_**.
+**Para os exercícios, 14 e 15, crie, de forma manual na parte gráfica do seu sistema operacional, um arquivo de texto com o conteúdo abaixo, chamado `skills.txt`:**
 
-_13_. Limpe o terminal.
+```
+Internet
+Unix
+Bash
+HTML
+CSS
+JavaScript
+React
+SQL
+```
 
-#### Para os exercícios, 14 e 15, crie, de forma manual na parte gráfica do seu sistema operacional, um arquivo de texto com o conteúdo abaixo, chamado skills.txt:
+14. Mostre na tela as 5 primeiras skills do arquivo `skills.txt`.
 
-__________________________________________________________________
+15. Mostre na tela as 4 últimas skills do arquivo `skills.txt`.
 
-_Internet_
-
-_Unix_
-
-_Bash_
-
-_HTML_
-
-_CSS_
-
-_JavaScript_
-
-_React_
-
-_SQL_
-
-__________________________________________________________________
-
-_14_. Mostre na tela as 5 primeiras _skills_ do arquivo **_skills.txt_**.
-
-_15_. Mostre na tela as 4 últimas _skills_ do arquivo **_skills.txt_**.
-
-_16_. Apague todos os arquivos que terminem em **_.txt._**
+16. Apague todos os arquivos que terminem em `.txt`.
 
 ## Parte II - Manipulação & Busca
 
-#### Na pasta unix_tests, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
+1. Na pasta `unix_tests`, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
 
+```
+curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+```
 
+2. Mostre todo o conteúdo do arquivo `countries.txt` na tela.
 
-##### __curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"__ #####
+3. Mostre o conteúdo de `countries.txt`, página por página, até encontra a `Zambia`.
 
+4. Mostre novamente o conteúdo de `countries.txt` página por página, mas agora utilize um comando para buscar por `Zambia`.
 
+5. Busque por `Brazil` no `countries.txt`.
 
-_1_. Mostre todo o conteúdo do arquivo **_countries.txt_** na tela.
+6. Busque novamente por `brazil` , mas agora utilizando o lower case.
 
-_2_. Mostre o conteúdo de **_countries.txt_**, página por página, até encontrar _Zambia_.
+**Para os próximos exercícios, crie um novo arquivo chamado `phrases.txt` e adicione algumas frases a sua escolha. Não precisa criar o arquivo pelo terminal.**
 
-_3_. Mostre novamente o conteúdo de **_countries.txt_** página por página, mas agora utilize um comando para buscar por _Zambia_.
+7. Busque pelas frases que não contenham a palavra `fox`.
 
-_4_. Busque por _Brazil_ no **_countries.txt_**.
+8. Conte o número de palavras do arquivo `phrases.txt`.
 
-_5_. Busque novamente por _brazil_ , mas agora utilizando o _lower case_.
+9. Conte o número de linhas do arquivo `phrases.txt`.
 
-_6_. Para os próximos exercícios, crie um novo arquivo chamado **_phrases.txt_** e adicione algumas frases a sua escolha. Não precisa criar o arquivo pelo terminal.
+10. Crie os arquivos `empty.tbt` e `empty.pdf`.
 
-_7_. Busque pelas frases que não contenham a palavra _fox_.
+11. Liste todos os arquivos do diretório `unix_tests`.
 
-_8_. Conte o número de palavras do arquivo **_phrases.txt_**.
+12. Liste todos os arquivos que terminem com `txt`.
 
-_9_. Conte o número de linhas do arquivo **_phrases.txt_**.
+13. Liste todos os arquivos que terminem com `tbt` ou `txt`.
 
-_10_. Crie os arquivos **_empty.tbt_** e **_empty.pdf_**.
-
-_11_. Liste todos os arquivos do diretório **_unix_tests_**.
-
-_12_. Liste todos os arquivos que terminem com _txt_.
-
-_13_. Liste todos os arquivos que terminem com tbt ou _txt_.
-
-_14_. Acesse o manual do comando _ls_.
+14. Acesse o manual do comando `ls`.
