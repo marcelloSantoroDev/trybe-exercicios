@@ -3,7 +3,9 @@
 ## Parte I - Criação de arquivos e diretórios
 
 
+
 ##### **_Dica : Para criação de arquivos vazios você pode utilizar o comando touch nome-do-arquivo.extensao._**
+
 
 
 _1_. Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu: crie um diretório chamado **_unix_tests_** e navegue até ele.
@@ -35,12 +37,19 @@ _13_. Limpe o terminal.
 #### Para os exercícios, 14 e 15, crie, de forma manual na parte gráfica do seu sistema operacional, um arquivo de texto com o conteúdo abaixo, chamado skills.txt:
 
 _Internet_
+
 _Unix_
+
 _Bash_
+
 _HTML_
+
 _CSS_
+
 _JavaScript_
+
 _React_
+
 _SQL_
 
 _14_. Mostre na tela as 5 primeiras _skills_ do arquivo **_skills.txt_**.
@@ -54,7 +63,9 @@ _16_. Apague todos os arquivos que terminem em **_.txt._**
 #### Na pasta unix_tests, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
 
 
-__curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"__
+
+##### __curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"__ #####
+
 
 
 _1_. Mostre todo o conteúdo do arquivo **_countries.txt_** na tela.
