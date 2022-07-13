@@ -18,7 +18,6 @@
     + Aprendi a conectar o meu repositório local com o meu repositório remoto;
     + Aprendi a criar, remover, navegar entre branchs;
     + Aprendi a solicitar, aprovar, comentar, pull requests;
-    +
 
 
 ---
