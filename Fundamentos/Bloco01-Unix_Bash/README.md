@@ -2,7 +2,7 @@
 
 ## Parte I - Criação de arquivos e diretórios
 
-*_Dica : Para criação de arquivos vazios você pode utilizar o comando touch nome-do-arquivo.extensao._*
+##### *_Dica : Para criação de arquivos vazios você pode utilizar o comando touch nome-do-arquivo.extensao._*
 
 1. Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu: crie um diretório chamado unix_tests e navegue até ele.
 
@@ -34,15 +34,15 @@
 
 
 
-| Internet   |
---------------
-| Unix       |
-| Bash       |
-| HTML       |
-| CSS	     |	
-| JavaScript |
-| React      |
-| SQL        |
+Internet
+
+_Unix_
+_Bash_
+_HTML_
+_CSS_
+_JavaScript_
+_React_
+_SQL_
 
 14. Mostre na tela as 5 primeiras skills do arquivo skills.txt.
 
