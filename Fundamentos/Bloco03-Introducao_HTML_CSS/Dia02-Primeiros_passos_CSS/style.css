@@ -1,0 +1,26 @@
+#Estudantes{
+    border-radius: 2%;
+}
+
+#trybelogo{
+    border-radius: 50%;
+}
+
+.Amigos{
+    border-radius: 100%;
+}
+
+h1{
+    font-family: 'Shrikhand', cursive;
+    
+    font-weight: lighter;
+
+    color: rgb(86, 175, 123);
+
+}
+
+body{
+    text-align: center;
+
+    background-color: rgb(238, 234, 180);
+}
