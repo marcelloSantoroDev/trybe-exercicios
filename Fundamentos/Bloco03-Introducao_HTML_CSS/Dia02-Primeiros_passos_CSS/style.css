@@ -1,5 +1,6 @@
 #Estudantes{
-    border-radius: 2%;
+    border-radius: 1%;
+    border: solid 5px rgb(86, 175, 123) ;
 }
 
 #trybelogo{
@@ -23,4 +24,30 @@ body{
     text-align: center;
 
     background-color: rgb(238, 234, 180);
+}
+
+.hover:hover{
+    font-size: 120%;
+    color: rgb(86, 175, 123);
+}
+
+.hover:active{
+    color: rgb(83, 70, 139);
+}
+
+.Amigos:hover{
+    border: solid rgb(86, 175, 123);
+}
+
+.Amigos:active{
+    width: 380px;
+}
+
+.indexamigos:hover{
+    font-size: 115%;
+    color: rgb(86, 175, 123);
+}
+
+.indexamigos:active{
+    color: rgb(83, 70, 139);
 }
