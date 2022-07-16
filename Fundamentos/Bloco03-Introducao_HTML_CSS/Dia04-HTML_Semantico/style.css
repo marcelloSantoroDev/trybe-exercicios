@@ -1,0 +1,42 @@
+*{
+    border: solid 4px red;
+    margin-bottom: 10px;
+    }
+
+#Header{
+
+    padding: 70px;
+
+
+}
+
+#Nav{
+
+    padding: 30px;
+
+}
+
+#Main{
+
+}
+
+#Article{
+
+    padding: 300px;
+    margin-right: 15%
+
+}
+
+#Section{
+
+    padding: 10px 300px;
+    margin-left:-250px;
+}
+
+#Aside{
+
+}
+
+#Footer{
+
+}
