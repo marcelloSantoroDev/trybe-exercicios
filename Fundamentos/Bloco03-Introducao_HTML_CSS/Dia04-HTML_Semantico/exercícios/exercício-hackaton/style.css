@@ -35,11 +35,14 @@ h1 {
 
   .second, .third{
     display: inline-block;
-  }
-
-  #first-second{
+    margin: auto;
+    margin-right:;
     margin-left: 32%;
   }
+
+  /*#first-second{
+    margin-left: 32%;
+  }*/
 
   #premiacoes{
     letter-spacing: 1px;
@@ -47,4 +50,8 @@ h1 {
     text-align: center;
     margin-top: 1%;
     line-height: 200%;
+  }
+
+  .third{
+    margin-left: 0%;
   }
