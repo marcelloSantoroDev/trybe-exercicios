@@ -1,1 +1,33 @@
+#Header{
+    border: solid black;
+    padding: 50px;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+#Nav{
+    border: solid #e90c0c;
+    padding: 25px;
+    margin-bottom: 5px;
+    width: 595px;
+    font-size: 20px;
+}
+
+#Main, p{
+    border: solid blue;
+    padding: 200px;
+    width: 246px;
+}
+
+#Article{
+    border: solid aqua;
+    padding: 80px;
+    margin-left: -190px;
+    margin-right: -190px;
+    margin-top: -150px;
+    margin-bottom: 5px;
+}
+
+#Section{
+    border: solid aqua;
 }
