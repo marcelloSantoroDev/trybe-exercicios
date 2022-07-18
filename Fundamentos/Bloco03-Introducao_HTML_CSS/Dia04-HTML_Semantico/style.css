@@ -1,3 +1,9 @@
+h1, h2, p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+
 #Header{
     border: solid black;
     padding: 50px;
@@ -16,8 +22,9 @@
 #Main{
     border: solid blue;
     padding: 100px;
-    padding-bottom: 500px;
+    padding-bottom: 18px;
     width: 71%;
+    font-size: ;
 }
 
 #Title{
@@ -30,6 +37,7 @@
 #Article{
     border: solid aqua;
     padding: 80px;
+    padding-bottom: 500px;
     margin-left: -80px;
     margin-right: -80px;
     margin-top: -80px;
@@ -41,7 +49,32 @@
     float: right;
     padding: 95px;
     padding-top: 237px;
-    padding-bottom: 620px;
-    margin-top: -934px;
+    padding-bottom: 1400px;
+    margin-top: -1394px;
     margin-left: 84%;
+    margin-bottom: -38px;
 }
+
+#Section{
+    border: solid yellow;
+    padding: 200px;
+    padding-bottom: 300px;
+    margin-left: -80px;
+    margin-right: -80px;
+}
+
+footer{
+    border: solid purple;
+    margin-right: 277px;
+    margin-top: 10px;
+    /* padding: -80%;
+    margin-right: 277px;
+    margin-top: 10px;
+    margin-bottom: 10px;*/
+}
+
+#Text{
+
+   ;
+}
+
