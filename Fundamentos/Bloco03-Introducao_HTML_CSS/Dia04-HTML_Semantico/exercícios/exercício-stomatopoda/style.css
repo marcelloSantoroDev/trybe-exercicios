@@ -5,14 +5,26 @@
 }
 
 header {
-    margin-top: 5%;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: solid 3px rgb(175, 175, 132);
     margin-bottom: 5%;
     font-size: 150%;
+    background-color: rgb(221, 221, 169);
+    
+}
+
+#pagina-inicial{
+    position: fixed;
+    margin-top: -15%;
 }
 
 nav {
     font-size: 150%;
     margin-bottom: 5%;
+    margin-right: 18%;
+    margin-top: 15%;
 }
 
 h2 {
@@ -39,7 +51,6 @@ li {
 }
 
 img {
-    margin-left: 35%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -57,10 +68,10 @@ table {
 }
 
 aside {
-    width: 25%;
+    width: 15%;
     float: right;
-    margin-top: -40%;
-    margin-right: 9%;
+    margin-top: -170%;
+    margin-right: 2%;
     border: solid black;
 }
 
@@ -76,14 +87,27 @@ aside:hover {
 .button {
     text-decoration: none;
     text-decoration-color: black;
+    text-de
 }
 
 ul,
 li {
     display: inline;
-    margin-right: 2%;
+    margin-right: 9%;
 }
 
 ul {
     margin-left: 39%;
+}
+
+table{
+    margin-left: 43%;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+th, td{
+    padding: 2%;
 }
