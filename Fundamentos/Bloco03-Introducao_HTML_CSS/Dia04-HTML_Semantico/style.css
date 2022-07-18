@@ -9,25 +9,39 @@
     border: solid #e90c0c;
     padding: 25px;
     margin-bottom: 5px;
-    width: 595px;
+    width: 80%;
     font-size: 20px;
 }
 
-#Main, p{
+#Main{
     border: solid blue;
-    padding: 200px;
-    width: 246px;
+    padding: 100px;
+    padding-bottom: 500px;
+    width: 71%;
+}
+
+#Title{
+    padding-bottom: 50px;
+    margin-top: -90px;
+    margin-bottom: 50px;
+    margin-left: -45px;
 }
 
 #Article{
     border: solid aqua;
     padding: 80px;
-    margin-left: -190px;
-    margin-right: -190px;
-    margin-top: -150px;
+    margin-left: -80px;
+    margin-right: -80px;
+    margin-top: -80px;
     margin-bottom: 5px;
 }
 
-#Section{
-    border: solid aqua;
+#Aside{
+    border: solid green;
+    float: right;
+    padding: 95px;
+    padding-top: 237px;
+    padding-bottom: 620px;
+    margin-top: -934px;
+    margin-left: 84%;
 }
