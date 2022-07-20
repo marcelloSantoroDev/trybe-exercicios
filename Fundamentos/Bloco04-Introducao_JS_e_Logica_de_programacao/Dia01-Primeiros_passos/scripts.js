@@ -29,20 +29,6 @@ if (num > num2 && num > num3) {
     return num3
 }
 
-switch(num, num2, num3){
-    case num > num2:
-    case num > num3:
-        return num;
-        break;
-    case num2 > num:
-    case num2 > num3:
-    return num2;
-        break;
-    case num3 > num:
-    case num3 > num2:
-        return num3;
-        break;
-}
 
 //exercício 4
 function verificaPositivo (param) {
@@ -68,7 +54,49 @@ function verificaTriangulo (t1, t2, t3) {
 
 //exercício 6
 
-let pecaXadrez = "Peão";
+let pecaXadrez = 'Peão';
+
+switch (pecaXadrez.toLowerCase()) {
+    case 'rei':
+    console.log('Se move em qualquer direção, uma casa por vez');
+    break;
+    case  'dama':
+    console.log('Se move em qualquer direção, quantas casas quiser');
+    break;
+    case  'torre':
+    console.log('Se move em linha reta, quantas casas quiser');
+    break;
+    case  'bispo':
+    console.log('Se move na diagonal, quantas casas quiser');
+    break;
+    case  'cavalo':
+    console.log('Se move em L');
+    break;
+    case  'peão':
+    console.log('Se move para frente, uma casa por vez');
+    break;
+}
+
+//exercício 7
+
+function convertePorcentagem (num){
+    if(num >= 90){
+        console.log(A);
+    } else if(num >= 80){
+        console.log(B);
+    } else if(num >= 70){
+        console.log(C);
+    } else if(num >=60){
+        console.log(B);
+    } else if(num >= 50){
+        console.log(E);
+    } else if(num < 50){
+            console.log(F);
+    } else if(num < 0 || num > 100) {
+        console.log('Erro');
+    }
+
+    }
 
 
 
