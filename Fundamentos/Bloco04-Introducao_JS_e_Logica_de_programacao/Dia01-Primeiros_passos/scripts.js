@@ -2,7 +2,7 @@
 const a;
 const b;
 
-let adicao = (a + b);
+let adicao = (a + b;
 let subtracao = (a - b);
 let multiplicacao = (a * b);
 let divisao = (a / b);
@@ -97,6 +97,3 @@ function convertePorcentagem (num){
     }
 
     }
-
-
-
