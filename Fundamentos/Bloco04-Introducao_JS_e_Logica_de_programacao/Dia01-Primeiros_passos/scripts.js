@@ -80,20 +80,63 @@ switch (pecaXadrez.toLowerCase()) {
 //exercício 7
 
 function convertePorcentagem (num){
-    if(num >= 90){
-        console.log(A);
-    } else if(num >= 80){
-        console.log(B);
-    } else if(num >= 70){
-        console.log(C);
-    } else if(num >=60){
-        console.log(B);
-    } else if(num >= 50){
-        console.log(E);
-    } else if(num < 50){
-            console.log(F);
-    } else if(num < 0 || num > 100) {
+
+
+    if(num < 0 || num > 100){
         console.log('Erro');
+    } else if(num >= 90){
+        console.log('A');
+    } else if(num >= 80){
+        console.log('B');
+    } else if(num >= 70){
+        console.log('C');
+    } else if(num >=60){
+        console.log('B');
+    } else if(num >= 50){
+        console.log('E');
+    } else if(num < 50){
+        console.log('F');
     }
 
     }
+
+//exercício 8
+
+const num;
+const num2;
+const num3;
+
+if(numero1 % 2 == 0 || numero2 % 2 == 0 || numero3 % 2 == 0){
+    console.log(True);
+} else {
+    console.log(False);
+}
+
+//exercício 9
+
+if(numero1 % 2 != 0 || numero2 % 2 != 0 || numero3 % 2 != 0){
+    console.log(True);
+} else {
+    console.log(False);
+}
+
+//exercício 10
+
+const custoProduto;
+const custoVenda;
+const imposto;
+
+if(custoProduto >= 0 && custoVenda >= 0){
+const custoTotal = custoProduto + imposto;
+const lucro = custoVenda - custoTotal;
+const lucroMil = lucro * 1000;
+} else {
+    return 'Erro'
+}
+
+//exercício 11
+let salario;
+
+
+
+
