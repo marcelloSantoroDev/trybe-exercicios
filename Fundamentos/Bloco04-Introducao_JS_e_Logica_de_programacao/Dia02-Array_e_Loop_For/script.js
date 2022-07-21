@@ -50,11 +50,15 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //exercício 6
 let valoresImpar = [];
 for (let i = 0 ; i < numbers.length ; i++){
-    if(numbers[i] % 2 != 1){
-        valoresImpar.push(numbers[i]);
-    } else {
-        console.log('nenhum valor ímpar encontrado');
+    if(numbers[i] % 2 != 0){
+        valoresImpar.push(numbers[i])
     }
+}
+
+if(valoresImpar.length > 0) {
+    console.log(valoresImpar.length);
+} else {
+    console.log('Nenhum valor ímpar encontrado');
 }
 
 
