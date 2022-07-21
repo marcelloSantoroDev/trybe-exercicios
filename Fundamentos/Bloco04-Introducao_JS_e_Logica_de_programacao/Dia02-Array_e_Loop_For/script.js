@@ -1,4 +1,4 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+//let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 //exercício 1
 
@@ -48,17 +48,55 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //console.log(maiorValor);
 
 //exercício 6
-let valoresImpar = [];
-for (let i = 0 ; i < numbers.length ; i++){
-    if(numbers[i] % 2 != 0){
-        valoresImpar.push(numbers[i])
-    }
-}
+//let valoresImpar = [];
+//for (let i = 0 ; i < numbers.length ; i++){
+//    if(numbers[i] % 2 != 0){
+//        valoresImpar.push(numbers[i])
+//    }
+//}
 
-if(valoresImpar.length > 0) {
-    console.log(valoresImpar.length);
-} else {
-    console.log('Nenhum valor ímpar encontrado');
-}
+//if(valoresImpar.length > 0) {
+//   console.log(valoresImpar.length);
+//} else {
+//    console.log('Nenhum valor ímpar encontrado');
+//}
+
+//exercício 7
+//let menorValor = 100;
+
+//for (let i = 0 ; i < numbers.length ; i +=1) {
+//    if(numbers[i] < menorValor){
+//        menorValor = numbers[i];
+//    }
+//}
+
+//console.log(menorValor)
+
+
+//let menorValor = numbers[0];
+
+//for (let i = 0 ; i < numbers.length ; i +=1) {
+//    if(numbers[i] < menorValor){
+//        menorValor = numbers[i];
+//    }
+//}
+
+//console.log(menorValor)
+
+
+
+//exercício 8 
+//for (let i = 1 ; i <= 25 ; i +=1) {
+//    console.log(i);
+//}
+
+//exercício 9
+//for (let i = 1 ; i <= 25 ; i +=1) {
+//    let divisao = i / 2;
+//    console.log(divisao);
+//}
+
+
+
 
 
