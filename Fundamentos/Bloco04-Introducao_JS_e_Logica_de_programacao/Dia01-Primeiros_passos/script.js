@@ -135,7 +135,6 @@ const lucroMil = lucro * 1000;
 }
 
 //exercício 11
-let salario;
 
 
 
