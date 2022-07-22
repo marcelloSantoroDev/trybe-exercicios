@@ -98,20 +98,49 @@
 
 //EXERCÍCIOS BÔNUS
 
-//let array = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+//1
 
-//for (let index = 1; index < array.length; index += 1) {
-//    for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
-//      if (array[index] < array[secondIndex]) {
-//        let position = array[index];
-//        array[index] = array[secondIndex];
-//        array[secondIndex] = position;
-//      }
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// for (let segundaPosicao = 1 ; segundaPosicao < numbers.length ; segundaPosicao += 1){
+//  for (let primeiraPosicao = 0 ; primeiraPosicao < segundaPosicao ; primeiraPosicao += 1){
+//        if(numbers[segundaPosicao] < numbers[primeiraPosicao]){
+//            let posicao = numbers[segundaPosicao];
+//            numbers[segundaPosicao] = numbers[primeiraPosicao];
+//            numbers[primeiraPosicao] = posicao;
+//        }
 //    }
-//  }
 
-//console.log(array);
+// }
 
+// console.log(numbers);
 
+//2
 
+// for (let segundaPosicao = 1 ; segundaPosicao < numbers.length ; segundaPosicao += 1){
+//     for (let primeiraPosicao = 0 ; primeiraPosicao < segundaPosicao ; primeiraPosicao += 1){
+//           if(numbers[segundaPosicao] > numbers[primeiraPosicao]){
+//               let posicao = numbers[segundaPosicao];
+//               numbers[segundaPosicao] = numbers[primeiraPosicao];
+//               numbers[primeiraPosicao] = posicao;
+//           }
+//       }
+   
+//    }
+   
+//    console.log(numbers);
+
+//3
+
+let novoArray = [];
+
+for(let i = 0 ; i < numbers.length ; i += 1){
+    for(let j = 1 ; j < i ; j += 1){
+       
+    novoArray.push(mult);
+}
+
+}
+
+console.log(novoArray);
 
