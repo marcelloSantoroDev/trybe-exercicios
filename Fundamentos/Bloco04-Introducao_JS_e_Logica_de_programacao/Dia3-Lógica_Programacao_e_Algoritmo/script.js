@@ -10,7 +10,6 @@
 //     console.log('valor menor que 16');
 // }
 
-
 // let resultado = 10;
 
 // for(let i = 9 ; i > 0 ; i--) {
@@ -22,11 +21,42 @@
 // let word = 'tryber';
 // let invertedWord = '';
 
+// for(let j = word.length - 1 ; j >= 0 ; j -= 1){
+//    invertedWord += word[j]
+// }
 
-for(let j = word.length - 1 ; j >= 0 ; j -= 1){
-   invertedWord += word[j] 
-}
+// console.log(invertedWord);
 
-console.log(invertedWord);
+// let array = ['java', 'javascript', 'python', 'html', 'css'];
+// let maiorPalavra = '';
 
+// for (let i = 0 ; i < array.length ; i += 1){
+//    if(array[i].length > maiorPalavra.length){
+//       maiorPalavra = array[i];
+//    }
+
+// }
+
+// console.log(maiorPalavra);
+
+// let maiorPrimo = 0;
+
+// for (let i = 2; i <= 50; i += 1) {
+//   let ehPrimo = true;
+//   for (let j = 2; j < i; j += 1) {
+//     if (i % j == 0) {
+//       ehPrimo = false;
+//       break;
+//     }
+
+//    }
+//    if (ehPrimo) {
+//    maiorPrimo = i;
+//  }
+
+// }
+
+// console.log(maiorPrimo);
+
+//exercícios bônus
 
