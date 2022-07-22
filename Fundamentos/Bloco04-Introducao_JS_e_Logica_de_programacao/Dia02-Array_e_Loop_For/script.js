@@ -132,15 +132,14 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 //3
 
-let novoArray = [];
+// let novoArray = [];
 
-for(let i = 0 ; i < numbers.length ; i += 1){
-    for(let j = 1 ; j < i ; j += 1){
-       
-    novoArray.push(mult);
-}
+// for (let i = 0 ; i < numbers.length ; i += 1){
+//         if(i + 1 < numbers.length){
+//             novoArray.push(numbers[i] * numbers[i + 1])
+//         } else {
+//             novoArray.push(numbers[i] * 2)
+//         }
+//     }
 
-}
-
-console.log(novoArray);
-
+// console.log(novoArray);
