@@ -81,6 +81,21 @@
 //    console.log(ast);
 // }
 
+// let num = 10;
+// let a = '';
+
+// for (let i = 0; i < num; i += 1) {
+// a = '';
+// for (let j = num; j > i + 1; j -= 1) {
+// a += ' ';
+// }
+// for (let k = 0; k < i + 1; k += 1) {
+// a += '*';
+// }
+
+// console.log(a);
+// } 
+
 
 
 
