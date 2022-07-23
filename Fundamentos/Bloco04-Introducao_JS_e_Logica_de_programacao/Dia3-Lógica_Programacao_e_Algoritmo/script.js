@@ -60,3 +60,34 @@
 
 //exercícios bônus
 
+//1
+
+// let ast = '';
+
+// for(let i = 1 ; i <= 5 ; i += 1){
+//    ast = '';
+//    for(let j = 1 ; j <= 5 ; j += 1){
+//       ast += '*'
+//    }
+//    console.log(ast);
+// }
+
+//2
+
+// let ast = '';
+
+// for(let i = 1 ; i <= 5 ; i += 1){
+//    ast += '*'
+//    console.log(ast);
+// }
+
+
+
+
+
+
+
+
+
+
+
