@@ -16,6 +16,15 @@
 //     resultado *= i
 // }
 
+//solução do summer (Sérgio)
+
+// function fatorial(n) {  
+//     if(n != 0) {
+//         return 1
+//     }
+// return n * fatorial(n-1)
+// }
+
 // console.log(resultado);
 
 // let word = 'tryber';
@@ -82,11 +91,14 @@
 // }
 
 // let num = 5;
+
+// 3
+
 // let a = '';
 
-// for (let i = 0; i < num; i += 1) {
+// for (let i = 0; i < 5; i += 1) {
 // a = '';
-// for (let j = num; j > i + 1; j -= 1) {
+// for (let j = 5; j > i + 1; j -= 1) {
 // a += ' ';
 // }
 // for (let k = 0; k < i + 1; k += 1) {
@@ -94,7 +106,8 @@
 // }
 
 // console.log(a);
-// } 
+// }
+
 
 
 
