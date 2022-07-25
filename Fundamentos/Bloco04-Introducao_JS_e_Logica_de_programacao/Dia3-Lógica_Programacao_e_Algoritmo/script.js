@@ -81,7 +81,7 @@
 //    console.log(ast);
 // }
 
-// let num = 10;
+// let num = 5;
 // let a = '';
 
 // for (let i = 0; i < num; i += 1) {
