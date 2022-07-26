@@ -164,15 +164,15 @@
 
 // console.log(arrayIndex([2, 3, 6, 7, 10, 1]));
 
-//let maiorValor = 0;
+// let maiorValor = 0;
 
-//for (let i = 0 ; i < numbers.length ; i++){
+// for (let i = 0 ; i < numbers.length ; i++){
 //    if (numbers[i] > maiorValor){
 //        maiorValor = numbers[i]
-//}
+// }
 
-//}
-//console.log(maiorValor);
+// }
+// console.log(maiorValor);
 
 // function arrayIndex(arr) {
 // let arr = [-1, 6, 0, 7, 10, 3]
