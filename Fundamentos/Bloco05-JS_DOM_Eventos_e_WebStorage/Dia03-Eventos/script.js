@@ -119,22 +119,50 @@ fridaysButton('Sexta-feira');
 
 const fridays = document.querySelectorAll('.friday');
 const button3 = document.getElementById('btn-friday');
+let arrayFriday = [4, 11, 18, 25];
+//4 11 18 25
 
-button3.addEventListener('click', function() {
-
-for(let i = 0; i < fridays.length; i += 1){
-    if(fridays[i].innerHTML == 4 ||
-       fridays[i].innerHTML == 11 ||
-       fridays[i].innerHTML == 18 ||
-       fridays[i].innerHTML == 25){
-       fridays[i].innerHTML = 'SEXTOU';
-    } else if (fridays[i].innerHTML == 'SEXTOU') {
-         
+function changeFridays () {
+    button3.addEventListener('click', function (){
+        for(let i = 0; i < fridays.length; i += 1){
+        if(fridays[i].innerHTML !== 'Sexta'){
+           fridays[i].innerHTML = 'Sexta';
+        } else {
+            fridays[i].innerHTML = arrayFriday[i];
+        }
     }
 }
 
+)}
+
+changeFridays();
+
+// Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do mouse em um dia do mês no calendário,
+// o texto desse dia deve aumentar e, quando o ponteiro do mouse sair do dia, o texto deve retornar ao tamanho original.
+const days = document.querySelector('#days');
+
+function changeSize () {
+   
+days.addEventListener('mouseover', function(event){
+    event.target.style.fontSize = '30px'
 })
 
-//4 11 18 25
+}
+
+function changeSize2 () {
+days.addEventListener('mouseout', function(event){
+    event.target.style.fontSize = '20px'
+})
+}
+
+changeSize();
+changeSize2();
+
+
+// Implemente uma função que adicione uma tarefa personalizada ao calendário. A função deve receber como parâmetro a string com o nome da tarefa (ex: "cozinhar") e criar dinamicamente um elemento com a tag <span> contendo a tarefa.
+// O elemento criado deverá ser adicionado como filho/filha da tag <div> que possui a classe "my-tasks".
+
+
+
 
 
