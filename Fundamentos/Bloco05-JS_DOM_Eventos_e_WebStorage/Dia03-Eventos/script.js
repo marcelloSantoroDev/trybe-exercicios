@@ -129,7 +129,6 @@ for(let i = 0; i < fridays.length; i += 1){
        fridays[i].innerHTML == 25){
        fridays[i].innerHTML = 'SEXTOU';
     } else if (fridays[i].innerHTML == 'SEXTOU') {
-        for(let i = 0; i < fridays.length; i += 1)
          
     }
 }
