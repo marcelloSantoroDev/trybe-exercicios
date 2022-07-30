@@ -61,12 +61,13 @@ holidayFriday();
 // Adicione a este botão a ID "btn-holiday"
 // Adicione este botão como filho/filha da tag <div> com classe "buttons-container"
 
+const buttonsContainer = document.getElementsByClassName('buttons-container')[0];
+
 function holidays(element) {
 
     const buttonHoliday = document.createElement('button');
     buttonHoliday.id = 'btn-holiday';
     buttonHoliday.innerHTML = element
-    const buttonsContainer = document.getElementsByClassName('buttons-container')[0];
     buttonsContainer.appendChild(buttonHoliday);
 
 }
@@ -84,8 +85,10 @@ function changeColorHolidays() {
     for (let i = 0; i < holidays.length; i += 1) {
         if (holidays[i].style.backgroundColor !== 'green') {
             holidays[i].style.backgroundColor = 'green';
+            holidays[i].style.color = 'white';
         } else {
             holidays[i].style.backgroundColor = 'rgb(238,238,238)';
+            holidays[i].style.color = 'rgb(119,119,119)';
         }
 
     }
@@ -95,14 +98,21 @@ function changeColorHolidays() {
 button2.addEventListener('click', changeColorHolidays);
 
 
-// function returnColorHolidays(){
-//     const holidays = document.querySelectorAll(".holiday");
-//     for(let i = 0; i < holidays.length; i += 1){
-//         holidays[i].style.backgroundColor = 'rgb(238,238,238)'
-//     }
-// }
+// Implemente uma função que crie dinamicamente um botão com o nome "Sexta-feira". Sua função deve receber como parâmetro a string "Sexta-feira".
+// Adicione a esse botão o ID "btn-friday";
+// Adicione esse botão como filho/filha da tag <div> com classe "buttons-container".
 
-// button2.addEventListener('click', returnColorHolidays);
+
+function fridaysButton(element) {
+
+const fridayButton = document.createElement('button');
+fridayButton.id = 'btn-friday';
+fridayButton.innerHTML = element;
+buttonsContainer.appendChild(fridayButton);
+
+}
+
+fridaysButton('Sexta-feira');
 
 
 
